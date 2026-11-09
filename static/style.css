@@ -1,0 +1,52 @@
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 1rem;
+    color: #222;
+    background-color: #fafafa;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #111;
+    font-size: 1.2rem;
+}
+
+main {
+    margin-top: 2rem;
+}
+
+.post-list {
+    list-style: none;
+    padding: 0;
+}
+
+.post-list li {
+    margin-bottom: 2rem;
+}
+
+.post-list h2 {
+    margin-bottom: 0.2rem;
+}
+
+.post-list h2 a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+pre {
+    background: #eef;
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+footer {
+    margin-top: 3rem;
+    font-size: 0.85rem;
+    color: #666;
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+}
