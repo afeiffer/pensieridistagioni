@@ -1,0 +1,15 @@
+Generatore di Siti Statici (SSG) in Python
+-------------------------------------------
+I post vengono scritti come semplici file di testo in formato Markdown (con metadati come titolo e data).
+Uno script Python legge questi file, li converte in pagine HTML usando un template e genera una cartella pronta per la pubblicazione.
+
+Librerie python:
+pip install jinja2 markdown python-frontmatter
+
+Eseguo lo script:
+python builder.py
+
+Avviare server locale:
+python -m http.server --directory public 8000
+
+Vedi il file "Guida Sintassi Markdown.pdf" per la sintassi markdown dei singoli post.

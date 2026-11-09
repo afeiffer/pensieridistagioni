@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article>
+    <header class="mb-8">
+        <h1 class="text-3xl font-extrabold tracking-tight">{{ title }}</h1>
+    </header>
+    <div class="text-zinc-800 space-y-4 leading-relaxed">
+        {{ content|safe }}
+    </div>
+</article>
+{% endblock %}

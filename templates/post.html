@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="-mx-4 -my-10 px-4 py-10 min-h-screen transition-colors duration-300 {{ season.bg_page }}">
+    <article class="max-w-2xl mx-auto">
+        <header class="mb-8 pb-6 border-b-2 {{ season.border_accent }}">
+            <div class="flex items-center space-x-3 mb-3">
+                <span class="text-xs font-semibold px-2.5 py-0.5 rounded-full border {{ season.badge }}">
+                    {{ season.name }}
+                </span>
+                <span class="text-xs font-medium {{ season.text_muted }}">Pubblicato il {{ date }}</span>
+            </div>
+            <h1 class="text-3xl font-extrabold tracking-tight {{ season.text_main }}">{{ title }}</h1>
+        </header>
+
+        <div class="space-y-4 leading-relaxed {{ season.text_main }}">
+            {{ content|safe }}
+        </div>
+
+        <div class="mt-12 pt-6 border-t border-zinc-200/60">
+            <a href="/index.html" class="text-sm font-semibold {{ season.text_muted }} hover:underline">&larr; Torna alla home</a>
+        </div>
+    </article>
+</div>
+{% endblock %}
