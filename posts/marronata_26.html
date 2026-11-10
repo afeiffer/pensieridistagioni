@@ -27,11 +27,24 @@
 <div class="-mx-4 -my-10 px-4 py-10 min-h-screen transition-colors duration-300 bg-orange-50/40">
     <article class="max-w-2xl mx-auto">
         <header class="mb-8 pb-6 border-b-2 border-orange-600">
-            <div class="flex items-center space-x-3 mb-3">
-                <span class="text-xs font-semibold px-2.5 py-0.5 rounded-full border bg-orange-100 text-orange-900 border-orange-300">
-                    Autunno
-                </span>
-                <span class="text-xs font-medium text-orange-800/80">Pubblicato il 2026-11-08</span>
+            <div class="flex items-center justify-between flex-wrap gap-2 mb-3">
+                <div class="flex items-center space-x-3">
+                    <span class="text-xs font-semibold px-2.5 py-0.5 rounded-full border bg-orange-100 text-orange-900 border-orange-300">
+                        Autunno
+                    </span>
+                    <span class="text-xs font-medium text-orange-800/80">Pubblicato il 2026-11-08</span>
+                </div>
+
+                <!-- Tag nell'header del post -->
+                
+                <div class="flex flex-wrap gap-1.5">
+                    
+                    <a href="../tags/montagna.html" class="text-[11px] bg-white/80 border border-zinc-200 text-zinc-600 px-2 py-0.5 rounded-full hover:bg-white transition">
+                        #montagna
+                    </a>
+                    
+                </div>
+                
             </div>
             <h1 class="text-3xl font-extrabold tracking-tight text-orange-950">Marronata GM 2026</h1>
         </header>
@@ -51,7 +64,19 @@ sono piccoli orgogli personali da serbare nel mio cuore.
 Si dà agli altri e quando lo si fa, il gesto è incondizionato e puro, per vedere le persone conquistarsi meritatamente quel momento di soddisfacente felicità.</p>
         </div>
 
-        <div class="mt-12 pt-6 border-t border-zinc-200/60">
+        <!-- Tag in fondo al post (opzionali o come promemoria) -->
+        
+        <div class="mt-8 pt-4 flex items-center gap-2 flex-wrap">
+            <span class="text-xs font-medium text-orange-800/80">Tag:</span>
+            
+            <a href="../tags/montagna.html" class="text-xs bg-white/70 border border-zinc-200 text-zinc-700 px-2.5 py-1 rounded-full hover:bg-white transition">
+                #montagna
+            </a>
+            
+        </div>
+        
+
+        <div class="mt-12 pt-6 border-t border-zinc-200/60 flex justify-between items-center">
             <a href="../index.html" class="text-sm font-semibold text-orange-800/80 hover:underline">&larr; Torna alla home</a>
         </div>
     </article>

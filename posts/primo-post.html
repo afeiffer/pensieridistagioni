@@ -27,11 +27,24 @@
 <div class="-mx-4 -my-10 px-4 py-10 min-h-screen transition-colors duration-300 bg-amber-50/40">
     <article class="max-w-2xl mx-auto">
         <header class="mb-8 pb-6 border-b-2 border-amber-500">
-            <div class="flex items-center space-x-3 mb-3">
-                <span class="text-xs font-semibold px-2.5 py-0.5 rounded-full border bg-amber-100 text-amber-900 border-amber-300">
-                    Estate
-                </span>
-                <span class="text-xs font-medium text-amber-800/80">Pubblicato il 2026-08-01</span>
+            <div class="flex items-center justify-between flex-wrap gap-2 mb-3">
+                <div class="flex items-center space-x-3">
+                    <span class="text-xs font-semibold px-2.5 py-0.5 rounded-full border bg-amber-100 text-amber-900 border-amber-300">
+                        Estate
+                    </span>
+                    <span class="text-xs font-medium text-amber-800/80">Pubblicato il 2026-08-01</span>
+                </div>
+
+                <!-- Tag nell'header del post -->
+                
+                <div class="flex flex-wrap gap-1.5">
+                    
+                    <a href="../tags/software.html" class="text-[11px] bg-white/80 border border-zinc-200 text-zinc-600 px-2 py-0.5 rounded-full hover:bg-white transition">
+                        #software
+                    </a>
+                    
+                </div>
+                
             </div>
             <h1 class="text-3xl font-extrabold tracking-tight text-amber-950">Il mio primo post</h1>
         </header>
@@ -47,7 +60,19 @@
 </ul>
         </div>
 
-        <div class="mt-12 pt-6 border-t border-zinc-200/60">
+        <!-- Tag in fondo al post (opzionali o come promemoria) -->
+        
+        <div class="mt-8 pt-4 flex items-center gap-2 flex-wrap">
+            <span class="text-xs font-medium text-amber-800/80">Tag:</span>
+            
+            <a href="../tags/software.html" class="text-xs bg-white/70 border border-zinc-200 text-zinc-700 px-2.5 py-1 rounded-full hover:bg-white transition">
+                #software
+            </a>
+            
+        </div>
+        
+
+        <div class="mt-12 pt-6 border-t border-zinc-200/60 flex justify-between items-center">
             <a href="../index.html" class="text-sm font-semibold text-amber-800/80 hover:underline">&larr; Torna alla home</a>
         </div>
     </article>
